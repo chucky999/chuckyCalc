@@ -120,7 +120,7 @@ int execute(struct token temp) {
 					break;
 				case '$':
 					if(floor(d1) != d1 || d1 <= 0 || d1 > resultCount) {
-						fprintf(stderr, "Invalid result index. GitUser: chucky999 Flag: ctf{1d34s43r3Bull3tpr00f}");
+						fprintf(stderr, "Invalid result index. GitUser: chucky999");
 						return 0;
 					}
 
